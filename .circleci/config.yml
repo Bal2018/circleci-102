@@ -1,4 +1,4 @@
- version: 2
+version: 2
  jobs:
    one:
      docker:
@@ -19,7 +19,7 @@
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: echo "How exciting - this is a new added workflow!!"
+       - run: echo "Not exciting enough yet - added workflow!!"
        - run: sleep 25
 
  workflows:
