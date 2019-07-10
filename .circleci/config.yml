@@ -19,7 +19,7 @@
        - image: circleci/ruby:2.4.1
      steps:
        - checkout
-       - run: echo "How exciting - this is a new added workflow!!"
+       - run: echo "Lets see if this creates an error now - version control!!"
        - run: sleep 25
 
  workflows:
